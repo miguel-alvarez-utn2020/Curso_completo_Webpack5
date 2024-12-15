@@ -1,0 +1,11 @@
+In the previous video we were talking about enabling support for Experimental JavaScript features in your application.
+
+In this particular video we were using class properties as an example of such an experimental feature. However, I would like to mention that all major browsers have already added support for class properties. Nowadays this feature works out-of-the-box, and you don't have to include @babel/plugin-proposal-class-properties separately in your Webpack configuration.
+
+However, in the previous video I was showing a general approach for handling any kind of non-standard JavaScript features (not only class properties). For example, if you want to use pipeline operator |> in your code, then you still need to configure Babel for your application as well as add a special Babel plugin named @babel/plugin-proposal-pipeline-operator that adds support for this feature.
+
+At some point in the future all major browsers will add support for pipeline operator as well, and you won't have to enable it separately. However, there will always be new features (not supported out-of-the-box) that you can enable using the approach described in the previous video. And now you know how you can use them ahead of time.
+
+Have a nice day,
+
+Viktor

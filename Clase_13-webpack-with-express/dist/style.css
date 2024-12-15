@@ -1,0 +1,27 @@
+.header {
+  color: aquamarine;
+  font-size: 45px;
+  background-color: azure;
+}
+.hello-button {
+  font-size: 20px;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  background-color: rgb(30, 30, 219);
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #e5e5e5;
+  transition: background-color 0.3s ease;
+}
+.hello-button:hover {
+  background-color: white;
+  color: rgb(30, 30, 219);
+}
+
+.hello-text {
+  font-size: 20px;
+  color: #232323;
+}
